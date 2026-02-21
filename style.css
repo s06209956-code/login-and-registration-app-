@@ -1,0 +1,127 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    display: flex;
+}
+
+.container {
+    background: rgba(255, 255, 255, 0.2);
+    padding: 40px;
+    border-radius: 15px;
+    backdrop-filter: blur(10px);
+    width: 300px;
+    text-align: center;
+    color: white;
+    flex-direction: column;
+    display: flex;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: none;
+    border-radius: 8px;
+}
+
+button {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    background: #ff7eb3;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #ff4e91;
+}
+
+a {
+    color: #ffd6ff;
+    text-decoration: none;
+}
+
+.error {
+    background: #ff4d4d;
+    padding: 8px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+/* Background */
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: linear-gradient(135deg, #4e73df, #1cc88a);
+    min-height: 100vh;
+    padding: 30px;
+}
+
+/* Container */
+.notes-container {
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    max-width: 700px;
+    margin: auto;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.2);
+}
+
+/* Heading */
+.notes-container h2 {
+    text-align: center;
+    color: #4e73df;
+}
+
+/* Notes List */
+.notes-list {
+    list-style: none;
+    padding: 0;
+}
+
+.notes-list li {
+    background: #f8f9fc;
+    padding: 12px 15px;
+    margin: 10px 0;
+    border-radius: 8px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/* Links */
+.notes-list a {
+    text-decoration: none;
+    color: #1cc88a;
+    font-weight: bold;
+}
+
+.notes-list a:hover {
+    color: #17a673;
+}
+
+/* Logout Button */
+.logout-btn {
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+    padding: 10px;
+    background: #e74a3b;
+    color: white;
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.logout-btn:hover {
+    background: #c0392b;
+}
+
